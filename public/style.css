@@ -1,0 +1,109 @@
+@import url('https://pro.fontawesome.com/releases/v5.15.3/css/all.css%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+    background-image: url('/public/beach-hd-wallpaper-desktop-background-hd-wallpapers-for-desktop-1630276610-e1515089002948.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarefas{
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgba(89,14,160, 0.15);
+    backdrop-filter: blur(5px);
+    width: 50%;
+    padding: 2rem;
+    border-radius: 20px;
+    
+}
+
+.tarefas h2{
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.750);
+}
+
+.deletar{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+
+.lista{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    opacity: 1;
+    background-color: #0c2fca5b;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom-right-radius: 9999px;
+    border-top-right-radius: 9999px;
+    align-items: center;
+    font-weight:300;
+}
+
+.conteudo p{
+    padding: 0.5rem;
+
+}
+
+.conteudo:hover{
+    opacity: 1;
+    
+}
+
+.conteudo a i{
+    font-size: 1.7rem;
+    color: rgba(255, 255, 255, 0.705);
+    padding-right: 5px;
+}
+
+form {
+    margin: 50px auto;
+    
+}
+
+form input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+}
+
+form input:focus{
+    outline: none;
+}
+
+form button{
+    padding: 0.2rem;
+    background-color: rgb(18, 155, 18);
+    margin-top: 10px;
+    width: 55%;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.705);
+    border: none;
+}
+
+form button:hover{
+    background-color: rgb(35, 175, 35);
+}

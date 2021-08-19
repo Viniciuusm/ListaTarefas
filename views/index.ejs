@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Praticando com node</title>
+        <link href="/public/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <div class="tarefas">
+            <h2>Lista de tarefas para fazer</h2>
+            <div class="lista">
+                <% for(let i = 0; i < tarefasList.length; i++){%>
+                    <% if(i % 2 == 0){ %>
+                        <div class="conteudo" style="background-color: #593ae052; ">  
+                            <p><%= tarefasList[i] %></p>
+                            <a class="deletar" href="/deletar/<%= i %>"><i class="fas fa-times"></i></i></a>
+                        </div>
+                    <% }else{ %>
+                        <div class="conteudo">  
+                            <p><%= tarefasList[i] %></p>
+                            <a class="deletar" href="/deletar/<%= i %>"><i  class="fas fa-times "></i></i></a>
+                        </div>
+                     <%}%>
+                <%}%>
+                <form class="formulario" action="/form" method="POST">
+                    <input type="text" id="name" name="campo1" placeholder="Digite uma terefa"  required>
+                    <button type="submit" value="enviar">Enviar</button>
+                </form>
+                <script>
+                    
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
