@@ -15,7 +15,8 @@
 - Após o editor de texto aberto rodar no console <code>yarn</code> ou <code>npm install</code> para instalar todas as dependencias.
 
 ### 🎲 Rodando o Back End (servidor)
-<pre># Clone este repositório
+```bash
+# Clone este repositório
 $ git clone https://github.com/Viniciuusm/ListaTarefas.git
 
 # Instale as dependências
@@ -23,8 +24,9 @@ $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
+```
 
-# O servidor inciará na porta:3033 - acesse http://localhost:3033</pre>
+# O servidor inciará na porta:3033 - acesse http://localhost:3033
 
 ## 📝 Licença
 Este projeto esta sobe a licença [MIT]().
