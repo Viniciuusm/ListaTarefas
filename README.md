@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/61718764/130292599-d26aceba-bd83-4a72-8ae1-e351a727eea4.png)
 
 ## 🛠 Tecnologias
-- [Node.js](https://nodejs.org/en/)
+- [Express (Node.js)](https://nodejs.org/en/)
 - [Ejs](https://ejs.co/)
 
 ## 🚀 Como executar o projeto
