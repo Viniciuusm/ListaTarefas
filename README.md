@@ -15,7 +15,7 @@
 - Após o editor de texto aberto rodar no console <code>yarn</code> ou <code>npm install</code> para instalar todas as dependencias.
 
 ### 🎲 Rodando o Back End (servidor)
-# Clone este repositório
+<pre># Clone este repositório
 $ git clone https://github.com/tgmarinho/nlw1
 
 # Acesse a pasta do projeto no terminal/cmd
@@ -30,5 +30,5 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev:server
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor inciará na porta:3333 - acesse http://localhost:3333</pre> 
 
