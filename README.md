@@ -24,9 +24,9 @@ $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
-```
 
 # O servidor inciará na porta:3033 - acesse http://localhost:3033
+```
 
 ## 📝 Licença
 Este projeto esta sobe a licença [MIT]().
