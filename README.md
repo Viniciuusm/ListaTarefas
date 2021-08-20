@@ -16,19 +16,15 @@
 
 ### 🎲 Rodando o Back End (servidor)
 <pre># Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta server
-$ cd server
+$ git clone https://github.com/Viniciuusm/ListaTarefas.git
 
 # Instale as dependências
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+$ npm run dev
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333</pre> 
+# O servidor inciará na porta:3033 - acesse http://localhost:3033</pre>
 
+## 📝 Licença
+Este projeto esta sobe a licença [MIT]().
