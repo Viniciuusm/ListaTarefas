@@ -17,7 +17,7 @@
 ### 🎲 Rodando o Back End (servidor)
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Viniciuusm/ListaTarefas.git
+$ git clone https://github.com/vinimovich/lista-tarefas.git
 
 # Instale as dependências
 $ npm install
